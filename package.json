@@ -1,0 +1,21 @@
+{
+  "name": "learnjstsplaywright4x",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apurvadhamangaon-sudo/LearnJsTsPlaywright4X.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/apurvadhamangaon-sudo/LearnJsTsPlaywright4X/issues"
+  },
+  "homepage": "https://github.com/apurvadhamangaon-sudo/LearnJsTsPlaywright4X#readme"
+}
