@@ -38,6 +38,18 @@ console.log(array);
 array.push(7,8,9)
 console.log(array);
 
-console.log(array.at(-1));
+array.at(0);  // first element: 1
+array.at(-2); // second-to-last element: 8
 
+console.log(array[array.length - 1]);
 
+// Map vs Filters
+
+Array1=[1,2,3,4,5,6,7,8,9]
+MultiplyBy2=Array1.map(n => n * 2)
+console.log(MultiplyBy2); 
+
+Filterby2=Array1.filter(n => n>2)
+console.log(Filterby2);
+
+console.log(Array1.at(-1));
