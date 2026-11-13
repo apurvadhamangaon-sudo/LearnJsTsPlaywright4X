@@ -13,3 +13,17 @@ const greatThePerson2=(Name,Age)=>{
     return `Hello, ${Name}! You are ${Age} years old.`;
 }
 console.log(greatThePerson2("Bob", 25));
+
+//IIFE
+(
+function(){
+    console.log("Hello from IIFE!");
+}
+)();
+
+
+//Spread as a function parameter
+const sum3=(...numbers)=>{
+    return numbers.reduce((acc, curr)=> acc+curr, 0);
+}
+console.log(sum3(1, 2, 3, 4, 5));   
